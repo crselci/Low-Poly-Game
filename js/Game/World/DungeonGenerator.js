@@ -115,8 +115,8 @@ export class DungeonGenerator {
 		while (z != z2) {
 			this.grid[x][z] = 0;
 			z=z+dirZ;
-		}
 
+//doors, works, but not in use
 	// if(!placed){
 	// 	while (x != x2) {
 	// 		if (this.grid[x][z] == 1) {
